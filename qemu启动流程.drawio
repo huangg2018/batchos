@@ -1,9 +1,54 @@
-<mxfile host="app.diagrams.net" modified="2024-04-25T12:34:22.274Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" version="24.3.0" etag="ITUeq7V_0XHwDiiNrXUV" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-25T12:49:32.885Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" etag="YUQe59TLG87pEHHzyndL" version="24.3.0" type="github">
   <diagram name="第 1 页" id="7-k96jfnMAiJ8e-T-u9u">
-    <mxGraphModel>
+    <mxGraphModel dx="1002" dy="569" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="l_-t8NbUMLtEt77pQAXU-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="30" width="120" height="470" as="geometry" />
+        </mxCell>
+        <mxCell id="l_-t8NbUMLtEt77pQAXU-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="l_-t8NbUMLtEt77pQAXU-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="310" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l_-t8NbUMLtEt77pQAXU-2" value="&lt;span style=&quot;font-family: SFMono-Regular, Menlo, Consolas, Monaco, &amp;quot;Liberation Mono&amp;quot;, &amp;quot;Lucida Console&amp;quot;, monospace; font-size: 13px; text-align: start; background-color: rgb(248, 249, 251);&quot;&gt;rustsbi-qemu.bin&lt;/span&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="126" y="391" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="l_-t8NbUMLtEt77pQAXU-5" value="" style="shape=link;html=1;rounded=0;exitX=-0.007;exitY=0.849;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="l_-t8NbUMLtEt77pQAXU-1">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="330" y="429.5" as="sourcePoint" />
+            <mxPoint x="430" y="429.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l_-t8NbUMLtEt77pQAXU-6" value="&lt;span style=&quot;font-family: SFMono-Regular, Menlo, Consolas, Monaco, &amp;quot;Liberation Mono&amp;quot;, &amp;quot;Lucida Console&amp;quot;, monospace; font-size: 13px; text-align: start; text-wrap: wrap; background-color: rgb(248, 249, 251);&quot;&gt;0x80000000&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="l_-t8NbUMLtEt77pQAXU-5">
+          <mxGeometry x="0.3015" relative="1" as="geometry">
+            <mxPoint x="-33" y="-113" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l_-t8NbUMLtEt77pQAXU-8" value="&lt;span style=&quot;font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; font-size: medium; text-align: start; text-wrap: wrap; background-color: rgb(255, 255, 255);&quot;&gt;bootloader&amp;nbsp;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="50" y="416" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="l_-t8NbUMLtEt77pQAXU-12" value="&lt;span style=&quot;font-family: SFMono-Regular, Menlo, Consolas, Monaco, &amp;quot;Liberation Mono&amp;quot;, &amp;quot;Lucida Console&amp;quot;, monospace; font-size: 13px; text-align: start; background-color: rgb(248, 249, 251);&quot;&gt;os.bin&lt;/span&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="131" y="281" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="l_-t8NbUMLtEt77pQAXU-13" value="&lt;div style=&quot;text-align: start;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="125" y="190" width="20" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="l_-t8NbUMLtEt77pQAXU-15" value="&lt;span style=&quot;font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; font-size: medium; text-align: start; text-wrap: wrap; background-color: rgb(255, 255, 255);&quot;&gt;内核镜像&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="70" y="306" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="l_-t8NbUMLtEt77pQAXU-16" value="" style="shape=link;html=1;rounded=0;exitX=-0.007;exitY=0.849;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="309" y="324.83" as="sourcePoint" />
+            <mxPoint x="430" y="325.33" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l_-t8NbUMLtEt77pQAXU-17" value="&lt;span style=&quot;font-family: SFMono-Regular, Menlo, Consolas, Monaco, &amp;quot;Liberation Mono&amp;quot;, &amp;quot;Lucida Console&amp;quot;, monospace; font-size: 13px; text-align: start; text-wrap: wrap; background-color: rgb(248, 249, 251);&quot;&gt;0x80000000&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="l_-t8NbUMLtEt77pQAXU-16">
+          <mxGeometry x="0.3015" relative="1" as="geometry">
+            <mxPoint x="-18" y="105" as="offset" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
