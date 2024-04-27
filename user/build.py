@@ -13,7 +13,7 @@ if mode == "release" :
 	mode_arg = "--release"
 else :
     mode_arg = ""
-
+print("apps: %s" % apps)
 for app in apps:
     app = app[: app.find(".")]
     print("cargo rustc --bin %s %s -- -Clink-args=-Ttext=%x"
